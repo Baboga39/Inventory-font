@@ -47,7 +47,7 @@ export interface DashboardMetrics {
   salesSummary: SalesSummary[];
   purchaseSummary: PurchaseSummary[];
   expenseSummary: ExpenseSummary[];
-  expenseByCategorySummary: ExpenseByCategorySummary[];
+  expenseByCategory: ExpenseByCategorySummary[];
 }
 
 export interface User {
